@@ -14,8 +14,11 @@ body {
 
 header h1 {
     margin: 0;
-    padding: 24px 0;
+    padding: 96px 0;
+    padding-bottom: 0;
     color: #D34F73FF;
+    font-family: 'DS-Digital', verdana, georgia;
+    font-size: 96px;
 }
 
 .content {
@@ -39,6 +42,12 @@ header h1 {
     height: 48px;
     background-color: white;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px;
+    font-size: 48px;
+    font-family: 'DS-Digital', verdana, georgia;
 }
 
 button {
